@@ -1,0 +1,24 @@
+{
+  "name": "efactory-token-translation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    }
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "rsa-pem-from-mod-exp": "latest",
+    "toml": "latest",
+    "openid-client": "latest",
+    "axios": "latest"
+  }
+}

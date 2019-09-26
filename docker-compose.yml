@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+
+  helloworld-express-app:
+    image: "janniswarnat/helloworld-express-app:latest"
+    ports:
+      - 8081:8080
+

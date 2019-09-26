@@ -1,0 +1,9 @@
+[efactory-token-translation]
+#openidCA = "C:/Users/warnat/Documents/Git/src/code.linksmart.eu/bgw/certs/CA.pem"
+  [efactory-token-translation.openid_connect_providers]
+
+    [efactory-token-translation.openid_connect_providers.default]
+    openid_configuration="https://auth.fit.fraunhofer.de/kc/realms/composition/.well-known/openid-configuration"
+    audience = ["bgw_client"]
+    client_id = "bgw_client"
+    client_secret = "45a52e29-f860-43c8-b358-7c5e8488c6d9"
